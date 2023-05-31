@@ -10,8 +10,8 @@ html {
 }
 
 body {
-    background: rgba(0, 128, 0, 0.178) url(../imagens/LogoCambuci.png) no-repeat ;
-    background-size: auto;
+    background: rgba(0, 128, 0, 0.178) url(../imagens/1-LogoCambuci.png) top center no-repeat ;
+    background-size: cover;
 }
 
 #moldura {
