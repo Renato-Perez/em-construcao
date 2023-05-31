@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background: rgba(0, 128, 0, 0.178) url(../imagens/LogoCambuci.png) no-repeat ;
+    background-size: auto;
+}
+
+#moldura {
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 50%;
+    transform: translate(-50% -50%);
+}
+
+#logo img {
+    height: 12rem;
+    width: auto;
+    padding: 20px;
+    z-index: 30;
+}
+
+
+#backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+}
+
+#msg {
+    position: relative;
+    margin: auto;
+    width: fit-content;
+    background: black;
+    color: white;
+    padding: 2rem;
+    border: 5px solid green;
+    border-radius: 16px;
+    z-index: 20;
+}
+
+#msg:hover {
+    background: white;
+    color: green;
+    transition: .3s ease-in-out;
+}
